@@ -1,0 +1,14 @@
+*{
+    background:url('../image/homes.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-header{
+    width: 80%;
+    margin: 5px auto 0px;
+    text-align: center;
+    color: rgb(3, 71, 94);
+    font-size: 35px;
+    padding: 20px;
+}

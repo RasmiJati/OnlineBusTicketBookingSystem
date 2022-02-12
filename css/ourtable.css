@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 120%;
+    /*background-image: url('../image/lumbini2.jpg');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.header{
+    width: 30%;
+    margin: 90px auto 0px;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}

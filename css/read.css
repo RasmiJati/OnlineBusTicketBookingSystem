@@ -1,0 +1,49 @@
+*{
+	box-sizing:border-box;
+}
+*{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.message ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.message ul li{
+	display:inline-block;
+}
+.message ul li a{
+	display:inline-block;
+	text-decoration: underline;
+	color:  rgb(3, 71, 94);
+	padding:30px 30px;
+	font-size: 35px;
+}
+.message ul li a:hover{
+    color:black;
+}
+.header{
+    width: 50%;
+    margin: 10px auto 0px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 40px;
+    color: rgb(11, 11, 54);
+}
+table{
+    background-color: rgb(221, 211, 211);
+    border-color: black;
+}
+table th{
+    color: rgb(40, 5, 73);
+}
+a{
+    margin: 50px auto 0px;
+    padding: 20px;
+    color: rgb(2, 50, 66);
+    text-decoration: underline;
+    font-size: 30px;
+}

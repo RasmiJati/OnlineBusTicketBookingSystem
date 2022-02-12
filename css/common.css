@@ -1,0 +1,25 @@
+*{
+	box-sizing:border-box;
+}
+
+.site-menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.site-menu ul li{
+	display:inline-block;
+}
+.site-menu ul li a{
+	display:inline-block;
+	text-decoration: none;
+	color: black;
+	padding:30px 30px;
+	font-size: 25px;
+}
+.site-menu ul li a:hover{
+    color: rgb(3, 71, 94);
+}
+
+
+

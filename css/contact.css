@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 120%;
+    /*background-image: url('../image/lumbini2.jpg');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.header1{
+    width: 30%;
+    padding: 20px 20px;
+    float: left;
+}
+.header2{
+    width: 70%;
+    padding: 20px 20px;
+    float: right;
+}
+
+
+.header{
+    width: 100%;
+    margin: 50px auto 0px;
+    color: black;
+    text-align: center;
+    background: rgb(21, 134, 172);
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.info{
+    width: 100%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: lightblue;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.site-header{
+    width: 70%;
+    margin: 50px auto 0px;
+    color: black;
+    text-align: center;
+    background: rgb(21, 134, 172);
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+form{
+    width: 70%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid black;
+    background: lightblue;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input{
+    height: 30px;
+    width: 60%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+.input-group textarea{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: 1px solid gray;
+}
+
+.btn{
+    width: 25%;
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background : rgb(21, 134, 172);
+    border-radius:25px;
+    border: 2px solid black;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(0.7);
+    background : lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

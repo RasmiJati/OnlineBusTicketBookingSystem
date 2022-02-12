@@ -1,0 +1,63 @@
+*{
+	box-sizing:border-box;
+}
+body{
+    font-size: 120%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.link ul{
+	margin: 0;
+	padding: 0;
+    list-style: none;
+}
+.link ul li{
+	display:inline-block;
+}
+.link ul li a{
+    display:inline-block;
+    text-align: center;
+	text-decoration: underline;
+	color: rgb(30, 92, 112);
+	padding:30px 30px;
+	font-size: 25px;
+}
+
+.message{
+    text-align: center;
+    padding: 0px 0px;
+    margin: 0px auto 0px;
+}
+.message h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.message h3{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.message h5{
+    font-size: 20px;
+}
+.message h5 a{
+    width: 25%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background : rgb(21, 134, 172);
+    border-radius:25px;
+    border: 2px solid black;
+    transition: all 0.3s linear;
+    cursor: pointer;   
+}  
+.message h5 a:hover{
+    color: rgb(30, 92, 112);
+    background : lightblue;
+}  
+
+
